@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FCD9A781CEC145B0091AFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9A771CEC145B0091AFC0 /* AppDelegate.swift */; };
+		9FCD9A7A1CEC145B0091AFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9A791CEC145B0091AFC0 /* ViewController.swift */; };
+		9FCD9A7D1CEC145B0091AFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCD9A7B1CEC145B0091AFC0 /* Main.storyboard */; };
+		9FCD9A7F1CEC145B0091AFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCD9A7E1CEC145B0091AFC0 /* Assets.xcassets */; };
+		9FCD9A821CEC145B0091AFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCD9A801CEC145B0091AFC0 /* LaunchScreen.storyboard */; };
+		9FCD9A8D1CEC145B0091AFC0 /* simpleFightingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9A8C1CEC145B0091AFC0 /* simpleFightingGameTests.swift */; };
+		9FCD9A981CEC145B0091AFC0 /* simpleFightingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9A971CEC145B0091AFC0 /* simpleFightingGameUITests.swift */; };
+		9FCD9AA61CEC15700091AFC0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9AA51CEC15700091AFC0 /* Character.swift */; };
+		9FCD9AA81CEC19B80091AFC0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9AA71CEC19B80091AFC0 /* Player.swift */; };
+		9FCD9AAA1CECE5440091AFC0 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9AA91CECE5440091AFC0 /* Enemy.swift */; };
+		9FCD9AAD1CECE8570091AFC0 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9AAC1CECE8570091AFC0 /* Kimara.swift */; };
+		9FCD9AAF1CECEB8D0091AFC0 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCD9AAE1CECEB8D0091AFC0 /* DevilWizard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FCD9A891CEC145B0091AFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FCD9A6C1CEC145B0091AFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FCD9A731CEC145B0091AFC0;
+			remoteInfo = simpleFightingGame;
+		};
+		9FCD9A941CEC145B0091AFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FCD9A6C1CEC145B0091AFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FCD9A731CEC145B0091AFC0;
+			remoteInfo = simpleFightingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FCD9A741CEC145B0091AFC0 /* simpleFightingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleFightingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCD9A771CEC145B0091AFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FCD9A791CEC145B0091AFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FCD9A7C1CEC145B0091AFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FCD9A7E1CEC145B0091AFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FCD9A811CEC145B0091AFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FCD9A831CEC145B0091AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCD9A881CEC145B0091AFC0 /* simpleFightingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleFightingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCD9A8C1CEC145B0091AFC0 /* simpleFightingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleFightingGameTests.swift; sourceTree = "<group>"; };
+		9FCD9A8E1CEC145B0091AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCD9A931CEC145B0091AFC0 /* simpleFightingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleFightingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCD9A971CEC145B0091AFC0 /* simpleFightingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleFightingGameUITests.swift; sourceTree = "<group>"; };
+		9FCD9A991CEC145B0091AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCD9AA51CEC15700091AFC0 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9FCD9AA71CEC19B80091AFC0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9FCD9AA91CECE5440091AFC0 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		9FCD9AAC1CECE8570091AFC0 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		9FCD9AAE1CECEB8D0091AFC0 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FCD9A711CEC145B0091AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCD9A851CEC145B0091AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCD9A901CEC145B0091AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FCD9A6B1CEC145B0091AFC0 = {
+			isa = PBXGroup;
+			children = (
+				9FCD9A7B1CEC145B0091AFC0 /* Main.storyboard */,
+				9FCD9A761CEC145B0091AFC0 /* simpleFightingGame */,
+				9FCD9A8B1CEC145B0091AFC0 /* simpleFightingGameTests */,
+				9FCD9A961CEC145B0091AFC0 /* simpleFightingGameUITests */,
+				9FCD9A751CEC145B0091AFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FCD9A751CEC145B0091AFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FCD9A741CEC145B0091AFC0 /* simpleFightingGame.app */,
+				9FCD9A881CEC145B0091AFC0 /* simpleFightingGameTests.xctest */,
+				9FCD9A931CEC145B0091AFC0 /* simpleFightingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FCD9A761CEC145B0091AFC0 /* simpleFightingGame */ = {
+			isa = PBXGroup;
+			children = (
+				9FCD9A791CEC145B0091AFC0 /* ViewController.swift */,
+				9FCD9AA51CEC15700091AFC0 /* Character.swift */,
+				9FCD9AA71CEC19B80091AFC0 /* Player.swift */,
+				9FCD9AA91CECE5440091AFC0 /* Enemy.swift */,
+				9FCD9AAB1CECE8430091AFC0 /* New Group */,
+				9FCD9A7E1CEC145B0091AFC0 /* Assets.xcassets */,
+				9FCD9A801CEC145B0091AFC0 /* LaunchScreen.storyboard */,
+				9FCD9A831CEC145B0091AFC0 /* Info.plist */,
+				9FCD9A771CEC145B0091AFC0 /* AppDelegate.swift */,
+			);
+			path = simpleFightingGame;
+			sourceTree = "<group>";
+		};
+		9FCD9A8B1CEC145B0091AFC0 /* simpleFightingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FCD9A8C1CEC145B0091AFC0 /* simpleFightingGameTests.swift */,
+				9FCD9A8E1CEC145B0091AFC0 /* Info.plist */,
+			);
+			path = simpleFightingGameTests;
+			sourceTree = "<group>";
+		};
+		9FCD9A961CEC145B0091AFC0 /* simpleFightingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FCD9A971CEC145B0091AFC0 /* simpleFightingGameUITests.swift */,
+				9FCD9A991CEC145B0091AFC0 /* Info.plist */,
+			);
+			path = simpleFightingGameUITests;
+			sourceTree = "<group>";
+		};
+		9FCD9AAB1CECE8430091AFC0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9FCD9AAC1CECE8570091AFC0 /* Kimara.swift */,
+				9FCD9AAE1CECEB8D0091AFC0 /* DevilWizard.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FCD9A731CEC145B0091AFC0 /* simpleFightingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCD9A9C1CEC145C0091AFC0 /* Build configuration list for PBXNativeTarget "simpleFightingGame" */;
+			buildPhases = (
+				9FCD9A701CEC145B0091AFC0 /* Sources */,
+				9FCD9A711CEC145B0091AFC0 /* Frameworks */,
+				9FCD9A721CEC145B0091AFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleFightingGame;
+			productName = simpleFightingGame;
+			productReference = 9FCD9A741CEC145B0091AFC0 /* simpleFightingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FCD9A871CEC145B0091AFC0 /* simpleFightingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCD9A9F1CEC145C0091AFC0 /* Build configuration list for PBXNativeTarget "simpleFightingGameTests" */;
+			buildPhases = (
+				9FCD9A841CEC145B0091AFC0 /* Sources */,
+				9FCD9A851CEC145B0091AFC0 /* Frameworks */,
+				9FCD9A861CEC145B0091AFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FCD9A8A1CEC145B0091AFC0 /* PBXTargetDependency */,
+			);
+			name = simpleFightingGameTests;
+			productName = simpleFightingGameTests;
+			productReference = 9FCD9A881CEC145B0091AFC0 /* simpleFightingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FCD9A921CEC145B0091AFC0 /* simpleFightingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCD9AA21CEC145C0091AFC0 /* Build configuration list for PBXNativeTarget "simpleFightingGameUITests" */;
+			buildPhases = (
+				9FCD9A8F1CEC145B0091AFC0 /* Sources */,
+				9FCD9A901CEC145B0091AFC0 /* Frameworks */,
+				9FCD9A911CEC145B0091AFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FCD9A951CEC145B0091AFC0 /* PBXTargetDependency */,
+			);
+			name = simpleFightingGameUITests;
+			productName = simpleFightingGameUITests;
+			productReference = 9FCD9A931CEC145B0091AFC0 /* simpleFightingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FCD9A6C1CEC145B0091AFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shannon Coward";
+				TargetAttributes = {
+					9FCD9A731CEC145B0091AFC0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9FCD9A871CEC145B0091AFC0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9FCD9A731CEC145B0091AFC0;
+					};
+					9FCD9A921CEC145B0091AFC0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9FCD9A731CEC145B0091AFC0;
+					};
+				};
+			};
+			buildConfigurationList = 9FCD9A6F1CEC145B0091AFC0 /* Build configuration list for PBXProject "simpleFightingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FCD9A6B1CEC145B0091AFC0;
+			productRefGroup = 9FCD9A751CEC145B0091AFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FCD9A731CEC145B0091AFC0 /* simpleFightingGame */,
+				9FCD9A871CEC145B0091AFC0 /* simpleFightingGameTests */,
+				9FCD9A921CEC145B0091AFC0 /* simpleFightingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FCD9A721CEC145B0091AFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCD9A821CEC145B0091AFC0 /* LaunchScreen.storyboard in Resources */,
+				9FCD9A7F1CEC145B0091AFC0 /* Assets.xcassets in Resources */,
+				9FCD9A7D1CEC145B0091AFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCD9A861CEC145B0091AFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCD9A911CEC145B0091AFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FCD9A701CEC145B0091AFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCD9AA81CEC19B80091AFC0 /* Player.swift in Sources */,
+				9FCD9AAA1CECE5440091AFC0 /* Enemy.swift in Sources */,
+				9FCD9AAF1CECEB8D0091AFC0 /* DevilWizard.swift in Sources */,
+				9FCD9AAD1CECE8570091AFC0 /* Kimara.swift in Sources */,
+				9FCD9AA61CEC15700091AFC0 /* Character.swift in Sources */,
+				9FCD9A7A1CEC145B0091AFC0 /* ViewController.swift in Sources */,
+				9FCD9A781CEC145B0091AFC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCD9A841CEC145B0091AFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCD9A8D1CEC145B0091AFC0 /* simpleFightingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCD9A8F1CEC145B0091AFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCD9A981CEC145B0091AFC0 /* simpleFightingGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FCD9A8A1CEC145B0091AFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FCD9A731CEC145B0091AFC0 /* simpleFightingGame */;
+			targetProxy = 9FCD9A891CEC145B0091AFC0 /* PBXContainerItemProxy */;
+		};
+		9FCD9A951CEC145B0091AFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FCD9A731CEC145B0091AFC0 /* simpleFightingGame */;
+			targetProxy = 9FCD9A941CEC145B0091AFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FCD9A7B1CEC145B0091AFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FCD9A7C1CEC145B0091AFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = simpleFightingGame;
+			sourceTree = "<group>";
+		};
+		9FCD9A801CEC145B0091AFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FCD9A811CEC145B0091AFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FCD9A9A1CEC145B0091AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FCD9A9B1CEC145B0091AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FCD9A9D1CEC145C0091AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleFightingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RarefiedProductions.simpleFightingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FCD9A9E1CEC145C0091AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleFightingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RarefiedProductions.simpleFightingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FCD9AA01CEC145C0091AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleFightingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RarefiedProductions.simpleFightingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleFightingGame.app/simpleFightingGame";
+			};
+			name = Debug;
+		};
+		9FCD9AA11CEC145C0091AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleFightingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RarefiedProductions.simpleFightingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleFightingGame.app/simpleFightingGame";
+			};
+			name = Release;
+		};
+		9FCD9AA31CEC145C0091AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simpleFightingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RarefiedProductions.simpleFightingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simpleFightingGame;
+			};
+			name = Debug;
+		};
+		9FCD9AA41CEC145C0091AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simpleFightingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RarefiedProductions.simpleFightingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simpleFightingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FCD9A6F1CEC145B0091AFC0 /* Build configuration list for PBXProject "simpleFightingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCD9A9A1CEC145B0091AFC0 /* Debug */,
+				9FCD9A9B1CEC145B0091AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FCD9A9C1CEC145C0091AFC0 /* Build configuration list for PBXNativeTarget "simpleFightingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCD9A9D1CEC145C0091AFC0 /* Debug */,
+				9FCD9A9E1CEC145C0091AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FCD9A9F1CEC145C0091AFC0 /* Build configuration list for PBXNativeTarget "simpleFightingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCD9AA01CEC145C0091AFC0 /* Debug */,
+				9FCD9AA11CEC145C0091AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FCD9AA21CEC145C0091AFC0 /* Build configuration list for PBXNativeTarget "simpleFightingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCD9AA31CEC145C0091AFC0 /* Debug */,
+				9FCD9AA41CEC145C0091AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FCD9A6C1CEC145B0091AFC0 /* Project object */;
+}
